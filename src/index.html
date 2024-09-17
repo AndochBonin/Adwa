@@ -7,33 +7,35 @@
   </head>
   <body class="bg-neutral-800 font-sans">
     <!-- Header -->
-    <header class="py-8">
+    <header class="py-8 px-4">
       <div class="container mx-auto flex flex-row">
         <div class="container mx-auto flex flex-row">
           <!--logo-->
-          <div class="size-16">
+          <div class="size-16 my-auto">
             <a href="#">
               <img src="./assets/adwasvg.svg" />
             </a>
           </div>
-          <div class="px-64 text-white hidden lg:block">
+          <div class="px-64 text-white hidden lg:block my-auto">
             <h1>Adwa</h1>
           </div>
         </div>
 
         <!-- menu -->
         <button
-          class="menuOpenButton bg-white hover:bg-gray-500 w-[140px] h-10 rounded-full"
+          class="menuOpenButton bg-white hover:bg-gray-500 w-[140px] h-10 rounded-full my-auto"
         >
           Menu
         </button>
 
         <nav
-          class="menuNav bg-lime-300 fixed w-screen lg:w-[450px] top-0 h-screen right-0 z-20 hidden"
+          class="menuNav bg-yellow-300 fixed w-screen lg:w-[450px] top-0 h-screen right-0 z-20 hidden"
         >
           <!--buttons-->
           <div class="container flex flex-row justify-between py-8">
-            <button class="menuHomeButton w-[40px] h-10 mx-8">Home</button>
+            <button class="menuHomeButton w-[40px] h-10 mx-8">
+              <a href="#">Home</a>
+            </button>
 
             <button
               class="menuCloseButton bg-white hover:bg-gray-500 w-[100px] h-10 rounded-full mx-8"
@@ -43,24 +45,24 @@
           </div>
 
           <!--page list-->
-          <div class="container text-center">
+          <div class="container text-center text-3xl">
             <ul>
-              <li>
+              <li class="my-4">
                 <a href="#"> Studio </a>
               </li>
-              <li>
+              <li class="my-4">
                 <a href="#"> Ventures </a>
               </li>
-              <li>
+              <li class="my-4">
                 <a href="#"> Companies </a>
               </li>
-              <li>
+              <li class="my-4">
                 <a href="#"> Team </a>
               </li>
-              <li>
+              <li class="my-4">
                 <a href="#"> Careers </a>
               </li>
-              <li>
+              <li class="my-4">
                 <a href="#"> Feed </a>
               </li>
             </ul>
@@ -68,10 +70,63 @@
         </nav>
       </div>
     </header>
+    <!-- hero -->
+    <section class="hero w-screen my-28">
+      <div class="container text-white mx-auto">
+        <h1 class="text-6xl lg:text-9xl">
+          We partner <br />
+          with founders
+        </h1>
+        <h1 class="mt-8 text-2xl lg:text-4xl">
+          Adwa is a Startup Studio & Venture Capital Fund
+        </h1>
+      </div>
+    </section>
 
-    <section></section>
+    <footer class="footer">
+      <div class="container mx-auto text-xl text-white mb-8">
+        <ul>
+          <li>
+            <a href="#"> Studio </a>
+          </li>
+          <li>
+            <a href="#"> Ventures </a>
+          </li>
+          <li>
+            <a href="#"> Companies </a>
+          </li>
+          <li>
+            <a href="#"> Team </a>
+          </li>
+          <li>
+            <a href="#"> Careers </a>
+          </li>
+          <li>
+            <a href="#"> Feed </a>
+          </li>
+        </ul>
+      </div>
 
-    <footer></footer>
+      <div class="container mx-auto text-lg text-gray-500">
+        <ul class="flex flex-row">
+          <li class="mr-4">
+            <a href="#"> Twitter </a>
+          </li>
+          <li class="mr-4">
+            <a href="#"> LinkedIn </a>
+          </li>
+          <li class="mr-4">
+            <a href="#"> Instagram </a>
+          </li>
+          <li class="mr-4">
+            <a href="#"> Vimeo </a>
+          </li>
+          <li class="mr-4">
+            <a href="#"> Legal </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>

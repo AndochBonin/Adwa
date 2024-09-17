@@ -12,5 +12,5 @@ menuCloseButton.addEventListener("click", () => {
 })
 
 menuHomeButton.addEventListener("click", () => {
-    console.log("Menu Home Button Clicked")
+    menuNav.classList.toggle("hidden")
 })
