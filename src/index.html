@@ -6,16 +6,62 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body class="bg-neutral-800 font-sans">
-    <!-- Header -->
-    <header class="py-8">
-        <div class="container mx-auto">
+      <!-- Header -->
+      <header class="py-8">
+        <div class="container mx-auto flex flex-row">
+          <div class="container mx-auto flex flex-row">
             <!--logo-->
-            <div>
-                <a href="#">
-                    <img src="./assets/adwasvg.svg"/>
-                </a>
+            <div class="size-16">
+              <a href="#">
+                <img src="./assets/adwasvg.svg" />
+              </a>
             </div>
+            <div class="px-64 text-white hidden lg:block">
+              <h1>Adwa</h1>
+            </div>
+          </div>
+
+          <!-- menu -->
+          <button
+            class="menuOpenButton bg-white hover:bg-gray-500 w-[140px] h-12 rounded-full"
+          >
+            Menu
+          </button>
+
+          <nav
+            class="menuNav bg-lime-300 fixed w-screen lg:w-[450px] top-0 h-screen right-0 z-20"
+          >
+
+              <button class="menuHomeButton bg-white hover:bg-gray-500 w-[140px] h-12 rounded-full">Home</button>
+              <button class="menuCloseButton bg-white hover:bg-gray-500 w-[140px] h-12 rounded-full">Close</button>
+
+            <ul>
+              <li>
+                <a href="#"> Studio </a>
+              </li>
+              <li>
+                <a href="#"> Ventures </a>
+              </li>
+              <li>
+                <a href="#"> Companies </a>
+              </li>
+              <li>
+                <a href="#"> Team </a>
+              </li>
+              <li>
+                <a href="#"> Careers </a>
+              </li>
+              <li>
+                <a href="#"> Feed </a>
+              </li>
+            </ul>
+          </nav>
         </div>
-    </header>
+      </header>
+
+      <section></section>
+
+      <footer></footer>
+      <script src="main.js"></script>
   </body>
 </html>
