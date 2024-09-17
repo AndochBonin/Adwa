@@ -4,11 +4,11 @@ const menuCloseButton = document.querySelector('.menuCloseButton')
 const menuHomeButton = document.querySelector('.menuHomeButton')
 
 menuOpenButton.addEventListener("click", () => {
-    console.log("Menu Open Button Clicked")
+    menuNav.classList.remove("hidden")
 })
 
 menuCloseButton.addEventListener("click", () => {
-    console.log("Menu Close Button Clicked")
+    menuNav.classList.toggle("hidden")
 })
 
 menuHomeButton.addEventListener("click", () => {
